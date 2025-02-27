@@ -22,5 +22,8 @@ public class GameManagement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
             SceneManager.LoadScene(sceneName);
 
+        if(Input.GetKeyDown(KeyCode.U))
+            Application.Quit();
+
     }
 }
